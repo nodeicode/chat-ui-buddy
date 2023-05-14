@@ -15,6 +15,7 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
+		outDir: "public",
 		adapter: adapter(),
 
 		paths: {
